@@ -20,6 +20,12 @@ public class LC273IntegerToEnglishWords {
         if (num == 0) {
             return "Zero";
         }
+        if (num < 0) {
+            if (num == Integer.MIN_VALUE) {
+                return "-" + helper(Integer.MAX_VALUE);
+            }
+            return "-" + helper(-num);
+        }
         return helper(num);
     }
 
@@ -49,5 +55,7 @@ public class LC273IntegerToEnglishWords {
         System.out.println(numberToWords(12345));
         System.out.println(numberToWords(1234567));
         System.out.println(numberToWords(1234567891));
+        System.out.println(numberToWords(-1234567891));
+        System.out.println(numberToWords(Integer.MIN_VALUE));
     }
 }
