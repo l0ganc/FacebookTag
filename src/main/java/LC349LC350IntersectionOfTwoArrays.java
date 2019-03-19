@@ -59,7 +59,7 @@ public class IntersectionOfTwoArrays {
     }
 
     // method 3 : binary search, time = O(nlogn);
-    public static nt[] intersectionMethod3(int[] nums1, int[] nums2) {
+    public static int[] intersectionMethod3(int[] nums1, int[] nums2) {
         Set<Integer> set = new HashSet<>();
         Arrays.sort(nums2);
 
