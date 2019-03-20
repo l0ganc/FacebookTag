@@ -7,7 +7,7 @@ import java.util.Set;
  * 如果两个数组长度相差不大可以用two pointers，如果相差很大，就用binary search（O(nlogm)），
  * 从长度小的数组开始，去另一个数组里查找有没有对应的，然后记录下失败的位置，下次binary seach就从这个点开始
  */
-public class IntersectionOfTwoArrays {
+public class LC349LC350IntersectionOfTwoArrays {
     // method 1: using sort, time = O(nlogn), space = O(n)
     public static int[] intersection(int[] nums1, int[] nums2) {
         Arrays.sort(nums1);
