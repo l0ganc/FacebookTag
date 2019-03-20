@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC21MergeTwoSortedLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MergeKSortedListsWIthHasNextAndNextFunction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -69,14 +69,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC21MergeTwoSortedLists.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+            <state relative-caret-position="110">
+              <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
               <folding>
                 <element signature="e#397#398#0" expanded="true" />
                 <element signature="e#428#429#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MergeKSortedListsWIthHasNextAndNextFunction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -132,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC658FindKCloestElements.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC21MergeTwoSortedLists.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MergeKSortedListsWIthHasNextAndNextFunction.java" />
       </list>
     </option>
   </component>
@@ -190,7 +203,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553054686897" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553055627915" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -210,14 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC658FindKCloestElements">
-    <configuration name="LC273IntegerToEnglishWords" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC273IntegerToEnglishWords" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MergeKSortedListsWIthHasNextAndNextFunction">
     <configuration name="LC658FindKCloestElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC658FindKCloestElements" />
       <module name="FacebookTag" />
@@ -246,13 +252,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MergeKSortedListsWIthHasNextAndNextFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeKSortedListsWIthHasNextAndNextFunction" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeKSortedListsWIthHasNextAndNextFunction" />
         <item itemvalue="Application.LC658FindKCloestElements" />
         <item itemvalue="Application.LC76MinimumWindowSubstring" />
         <item itemvalue="Application.LC88MergeSortedArray" />
         <item itemvalue="Application.LC67AddBinary" />
-        <item itemvalue="Application.LC273IntegerToEnglishWords" />
       </list>
     </recent_temporary>
   </component>
@@ -268,18 +281,18 @@
       <updated>1552426699007</updated>
       <workItem from="1552426702278" duration="655000" />
       <workItem from="1552448811178" duration="1406000" />
-      <workItem from="1552965648581" duration="15037000" />
+      <workItem from="1552965648581" duration="15573000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17098000" />
+    <option name="totallyTimeSpent" value="17634000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18070818" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18070818" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -296,7 +309,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3622449" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3622449" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -424,11 +437,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC21MergeTwoSortedLists.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
+        <state relative-caret-position="110">
+          <caret line="105" column="41" selection-start-line="105" selection-start-column="41" selection-end-line="105" selection-end-column="41" />
           <folding>
             <element signature="e#397#398#0" expanded="true" />
             <element signature="e#428#429#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MergeKSortedListsWIthHasNextAndNextFunction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
