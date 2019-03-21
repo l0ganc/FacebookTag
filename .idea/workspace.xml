@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC215KthLargestElementInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ThirdLargetElementInAnArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,18 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="46" column="64" selection-start-line="46" selection-start-column="64" selection-end-line="46" selection-end-column="64" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC125ValidPalindrome.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -45,11 +33,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC215KthLargestElementInAnArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="609">
-              <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+            <state relative-caret-position="452">
+              <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ThirdLargetElementInAnArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#146#147#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -163,6 +164,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC125ValidPalindrome.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC34FindFirstandLastPositionofElementInSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC215KthLargestElementInAnArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ThirdLargetElementInAnArray.java" />
       </list>
     </option>
   </component>
@@ -223,7 +225,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553143339709" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553143653650" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -243,7 +245,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC215KthLargestElementInAnArray">
+  <component name="RunManager" selected="Application.ThirdLargetElementInAnArray">
     <configuration name="LC15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC15_3Sum" />
       <module name="FacebookTag" />
@@ -272,8 +274,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeKSortedListsWIthHasNextAndNextFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeKSortedListsWIthHasNextAndNextFunction" />
+    <configuration name="ThirdLargetElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThirdLargetElementInAnArray" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -281,11 +283,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThirdLargetElementInAnArray" />
         <item itemvalue="Application.LC215KthLargestElementInAnArray" />
         <item itemvalue="Application.LC34FindFirstandLastPositionofElementInSortedArray" />
         <item itemvalue="Application.LC15_3Sum" />
         <item itemvalue="Application.LC56MergeIntervals" />
-        <item itemvalue="Application.MergeKSortedListsWIthHasNextAndNextFunction" />
       </list>
     </recent_temporary>
   </component>
@@ -301,18 +303,18 @@
       <updated>1552426699007</updated>
       <workItem from="1552426702278" duration="655000" />
       <workItem from="1552448811178" duration="1406000" />
-      <workItem from="1552965648581" duration="25565000" />
+      <workItem from="1552965648581" duration="25815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27626000" />
+    <option name="totallyTimeSpent" value="27876000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22771673" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -321,7 +323,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2897959" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2897959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -329,7 +331,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3622449" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3622449" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -546,8 +548,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC215KthLargestElementInAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="65" column="15" selection-start-line="65" selection-start-column="15" selection-end-line="65" selection-end-column="15" />
+        <state relative-caret-position="452">
+          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ThirdLargetElementInAnArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#146#147#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
