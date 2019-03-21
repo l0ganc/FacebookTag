@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC426ConvertBinarySearchTreeToSortedDoublyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC438FindAllAnagramsInAString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -51,25 +51,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC426ConvertBinarySearchTreeToSortedDoublyLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="518">
+              <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC173BinarySearchTreeIterator.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC438FindAllAnagramsInAString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="38" selection-end-column="5" />
+            <state relative-caret-position="358">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
               <folding>
-                <element signature="e#351#352#0" expanded="true" />
-                <element signature="e#388#389#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-                <element signature="e#960#961#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1683#1684#0" expanded="true" />
+                <element signature="e#1719#1720#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -159,6 +158,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC215KthLargestElementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/ThirdLargetElementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC426ConvertBinarySearchTreeToSortedDoublyLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC438FindAllAnagramsInAString.java" />
       </list>
     </option>
   </component>
@@ -219,7 +219,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553149595414" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553150400041" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -239,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThirdLargetElementInAnArray">
+  <component name="RunManager" selected="Application.LC438FindAllAnagramsInAString">
     <configuration name="LC15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC15_3Sum" />
       <module name="FacebookTag" />
@@ -261,8 +261,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC56MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC56MergeIntervals" />
+    <configuration name="LC438FindAllAnagramsInAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC438FindAllAnagramsInAString" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -277,11 +277,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC438FindAllAnagramsInAString" />
         <item itemvalue="Application.ThirdLargetElementInAnArray" />
         <item itemvalue="Application.LC215KthLargestElementInAnArray" />
         <item itemvalue="Application.LC34FindFirstandLastPositionofElementInSortedArray" />
         <item itemvalue="Application.LC15_3Sum" />
-        <item itemvalue="Application.LC56MergeIntervals" />
       </list>
     </recent_temporary>
   </component>
@@ -297,12 +297,12 @@
       <updated>1552426699007</updated>
       <workItem from="1552426702278" duration="655000" />
       <workItem from="1552448811178" duration="1406000" />
-      <workItem from="1552965648581" duration="26896000" />
+      <workItem from="1552965648581" duration="27644000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28957000" />
+    <option name="totallyTimeSpent" value="29705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -556,8 +556,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC426ConvertBinarySearchTreeToSortedDoublyLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="518">
+          <caret line="58" column="16" selection-start-line="58" selection-start-column="16" selection-end-line="58" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC438FindAllAnagramsInAString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1683#1684#0" expanded="true" />
+            <element signature="e#1719#1720#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
