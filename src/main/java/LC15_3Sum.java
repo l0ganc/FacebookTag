@@ -1,6 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 public class LC15_3Sum {
     /**
@@ -41,8 +39,34 @@ public class LC15_3Sum {
         return res;
     }
 
+
+    // hashmap without sorting
+    public static List<List<Integer>> threeSum2(int[] nums) {
+        Map<Integer, Integer> map = new HashMap<>();
+        for (int i = 0; i < nums.length; i ++)
+            map.put(nums[i], map.getOrDefault(nums[i], 0) + 1);
+        Set<List<Integer>> ans = new HashSet<>();
+        for (int i = 0; i < nums.length; i ++) {
+            map.put(nums[i], map.get(nums[i]) - 1);
+            if (map.get(nums[i]) == 0)
+                map.remove(nums[i]);
+            for (int j = 0; j < i; j ++) {
+                int tar = - nums[i] - nums[j];
+                if (map.containsKey(tar)) {
+                    List<Integer> tmp = Arrays.asList(nums[j], nums[i], tar);
+                    Collections.sort(tmp);
+                    ans.add(tmp);
+                }
+            }
+        }
+        List<List<Integer>> rtn = new ArrayList<>();
+        rtn.addAll(ans);
+        return rtn;
+    }
+
     public static void main(String[] args) {
         int[] nums = {-1, 0, 1, 2, -1, -4};
         System.out.println(threeSum(nums));
+        System.out.println(threeSum2(nums));
     }
 }
