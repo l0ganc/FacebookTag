@@ -53,6 +53,24 @@ public class LC67AddBinary {
         return res.reverse().toString();
     }
 
+    // follow up with base
+    public String addBinary3(String a, String b) {
+        int base = 2, carry = 0;
+        int len = Math.max(a.length(), b.length());
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < len; i ++) {
+            int tmp = carry;
+            if (i < a.length())
+                tmp += a.charAt(a.length() - i - 1) - '0';
+            if (i < b.length())
+                tmp += b.charAt(b.length() - i - 1) - '0';
+            carry = tmp / base;
+            sb.append(tmp % base);
+        }
+        if (carry > 0) sb.append(carry);
+        return sb.reverse().toString();
+    }
+
     public static void main(String[] args) {
         System.out.println(addBinary("11", "1"));
         System.out.println(addBinary("1010", "1011"));
