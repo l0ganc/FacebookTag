@@ -25,6 +25,25 @@ public class LC253MeetingRoomsII {
         return true;
     }
 
+    // LC253: Meeting rooms II  常规的排序+minHeap法
+    public static int minMeetingRooms2(Interval[] intervals) {
+        if (intervals == null || intervals.length == 0) {
+            return 0;
+        }
+
+        Arrays.sort(intervals, (a, b) -> a.start - b.start);
+        PriorityQueue<Interval> minHeap = new PriorityQueue<>((a, b) -> a.end - b.end);
+
+        for (Interval interval : intervals) {
+            if (!minHeap.isEmpty() && minHeap.peek().end <= interval.start) {
+                minHeap.poll();
+            }
+            minHeap.add(interval);
+        }
+        return minHeap.size();
+    }
+
+
     // 扫描线算法
     // 将meeting开始和结束的时间点分别存在list中。
     // 对整个list按时间排序。相同的时间结束应该优先于开始。
@@ -120,5 +139,14 @@ public class LC253MeetingRoomsII {
         }
         res.add(new Interval(start, end));
         return res;
+    }
+
+    public static void main(String[] args) {
+        Interval[] intervals = new Interval[]{
+                new Interval(0, 30),
+                new Interval(5, 10),
+                new Interval(15, 20)
+        };
+        System.out.println(minMeetingRooms2(intervals));
     }
 }
