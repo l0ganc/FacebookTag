@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC65ValidNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -14,15 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC67AddBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" selection-start-line="54" selection-end-line="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -49,11 +43,44 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+            <state relative-caret-position="-1929">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="291">
+              <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="258">
+              <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -81,24 +108,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
               <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC236LowestCommonAncestorOfaBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1140">
-              <caret line="78" column="62" selection-start-line="78" selection-start-column="62" selection-end-line="78" selection-end-column="62" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC238ProductofArrayExceptSelf.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="930">
-              <caret line="62" column="17" selection-start-line="62" selection-start-column="17" selection-end-line="62" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -132,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/main/java/LC20ValidParentheses.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC273IntegerToEnglishWords.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java" />
         <option value="$PROJECT_DIR$/src/main/java/IntersectionOfTwoArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java" />
@@ -162,6 +170,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LC31NextPermutation.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchingTheFirstColumnNumberHasOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC65ValidNumber.java" />
       </list>
     </option>
   </component>
@@ -220,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553362278410" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553377365363" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -240,14 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC253MeetingRoomsII">
-    <configuration name="LC20ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC20ValidParentheses" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC65ValidNumber">
     <configuration name="LC253MeetingRoomsII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC253MeetingRoomsII" />
       <module name="FacebookTag" />
@@ -255,15 +258,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC29DIvideTwoIntegers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC29DIvideTwoIntegers" />
+    <configuration name="LC31NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC31NextPermutation" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC31NextPermutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC31NextPermutation" />
+    <configuration name="LC560SubarraySumEqualsK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC560SubarraySumEqualsK" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC65ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC65ValidNumber" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -278,11 +288,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC65ValidNumber" />
+        <item itemvalue="Application.LC560SubarraySumEqualsK" />
         <item itemvalue="Application.LC253MeetingRoomsII" />
         <item itemvalue="Application.SearchingTheFirstColumnNumberHasOne" />
         <item itemvalue="Application.LC31NextPermutation" />
-        <item itemvalue="Application.LC29DIvideTwoIntegers" />
-        <item itemvalue="Application.LC20ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +309,12 @@
       <workItem from="1552426702278" duration="655000" />
       <workItem from="1552448811178" duration="1406000" />
       <workItem from="1552965648581" duration="35799000" />
-      <workItem from="1553271635928" duration="7173000" />
+      <workItem from="1553271635928" duration="10374000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45033000" />
+    <option name="totallyTimeSpent" value="48234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -374,26 +384,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="873">
           <caret line="86" column="34" selection-start-line="86" selection-start-column="34" selection-end-line="86" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -649,8 +639,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+        <state relative-caret-position="-1929">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
         </state>
       </provider>
     </entry>
