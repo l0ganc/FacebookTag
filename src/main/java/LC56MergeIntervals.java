@@ -120,6 +120,41 @@ public class LC56MergeIntervals {
         return res;
     }
 
+
+    // LC57:  Insert Interval
+    /**
+     * Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary).
+     *
+     * You may assume that the intervals were initially sorted according to their start times.
+     * Input: intervals = [[1,2],[3,5],[6,7],[8,10],[12,16]], newInterval = [4,8]
+     * Output: [[1,2],[3,10],[12,16]]
+     * Explanation: Because the new interval [4,8] overlaps with [3,5],[6,7],[8,10].
+     */
+    public static List<Interval> insert(List<Interval> intervals, Interval newInterval) {
+        List<Interval> res = new ArrayList<>();
+        int i = 0;
+
+        // add all the intervals ending before newInterval starts
+        while (i < intervals.size() && intervals.get(i).end < newInterval.start) {
+            res.add(intervals.get(i));
+        }
+
+        // merge all overlapping intervals to one considering newInterval
+        while (i < intervals.size() && intervals.get(i).start <= newInterval.end) {
+            newInterval = new Interval(
+                    Math.min(intervals.get(i).start, newInterval.start),
+                    Math.max(intervals.get(i).end, newInterval.end));
+            i++;
+        }
+        res.add(newInterval);  // add the union of intervals we got
+
+        // add the union of intervals we got
+        while (i < intervals.size()) {
+            res.add(intervals.get(i++));
+        }
+        return res;
+    }
+
     public static void main(String[] args) {
         LC56MergeIntervals sol = new LC56MergeIntervals();
 
