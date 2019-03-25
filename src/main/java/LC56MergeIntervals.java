@@ -169,5 +169,17 @@ public class LC56MergeIntervals {
         for (Interval interval : ans) {
             System.out.println("[" + interval.start + ", " + interval.end + "]");
         }
+
+
+        List<Interval> aa = new ArrayList<>();
+        aa.add(new Interval(2, 8));
+        List<Interval> bb = new ArrayList<>();
+        bb.add(new Interval(2, 4));
+        bb.add(new Interval(5, 6));
+        bb.add(new Interval(7, 9));
+        List<Interval> res = mergeIntervals(aa, bb);
+        for (Interval interval : res) {
+            System.out.println("[" + interval.start + ", " + interval.end + "]");
+        }
     }
 }

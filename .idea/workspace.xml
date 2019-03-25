@@ -94,8 +94,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC56MergeIntervals.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+            <state relative-caret-position="437">
+              <caret line="168" selection-start-line="168" selection-end-line="170" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -237,7 +237,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553557188933" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553557511443" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -257,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC75SortColorIWithII">
+  <component name="RunManager" selected="Application.LC56MergeIntervals">
     <configuration name="LC149MaxPointsonALine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC149MaxPointsonALine" />
       <module name="FacebookTag" />
@@ -279,8 +279,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC65ValidNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC65ValidNumber" />
+    <configuration name="LC56MergeIntervals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC56MergeIntervals" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -295,11 +295,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC56MergeIntervals" />
         <item itemvalue="Application.LC75SortColorIWithII" />
         <item itemvalue="Application.LC3LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.LC149MaxPointsonALine" />
         <item itemvalue="Application.LC304RangeSumQuery2DImmutable" />
-        <item itemvalue="Application.LC65ValidNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -316,18 +316,18 @@
       <workItem from="1552426702278" duration="655000" />
       <workItem from="1552448811178" duration="1406000" />
       <workItem from="1552965648581" duration="35799000" />
-      <workItem from="1553271635928" duration="30869000" />
+      <workItem from="1553271635928" duration="31229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68729000" />
+    <option name="totallyTimeSpent" value="69089000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23015873" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -336,7 +336,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.2897959" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.2897959" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -344,7 +344,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3622449" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.3622449" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -783,8 +783,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC56MergeIntervals.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="148" column="39" selection-start-line="148" selection-start-column="39" selection-end-line="148" selection-end-column="39" />
+        <state relative-caret-position="437">
+          <caret line="168" selection-start-line="168" selection-end-line="170" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
