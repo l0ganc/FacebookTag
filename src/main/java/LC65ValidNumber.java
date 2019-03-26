@@ -16,7 +16,7 @@ public class LC65ValidNumber {
                 numberSeen = true;
             } else if (s.charAt(i) == '.') {
                 if (pointSeen) {
-                    pointSeen = false;
+                    return false;
                 }
                 pointSeen =  true;
             } else if (s.charAt(i) == '-' || s.charAt(i) == '+') {
