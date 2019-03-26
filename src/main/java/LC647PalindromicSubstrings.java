@@ -1,4 +1,5 @@
 public class LC647PalindromicSubstrings {
+    // time = O(N^2);  space = O(1)
     static int count = 1;
     public static int countSubstrings(String s) {
         if (s.length() == 0) {
