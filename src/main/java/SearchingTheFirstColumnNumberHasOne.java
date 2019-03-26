@@ -38,17 +38,42 @@ public class SearchingTheFirstColumnNumberHasOne {
         return j;
     }
 
+
+    // 二分法，对每行做一次，时间复杂度是O(mlogn), 其中m是行，n是列
+    public static int getFirstColumnHashOne2(int[][] grid) {
+        if (grid == null || grid.length == 0) {
+            return -1;
+        }
+
+        int m = grid.length;
+        int n = grid[0].length;
+        int left = 0;
+        int right = n - 1;
+        for (int i = 0; i < m; i++) {
+            // do binary search and update the right bound
+            while (left < right) {
+                int mid  = (right - left) / 2 + left;
+                if (grid[i][mid] == 1) {
+                    right = mid;
+                } else {
+                    left = mid + 1;
+                }
+            }
+            right = left;
+            left = 0;
+        }
+        return right;
+    }
+
     public static void main(String[] args) {
         int[][] grid = new int[][]{
+                {0,0,0,0,1,1,1},
+                {0,0,0,0,1,1,1},
+                {0,0,1,1,1,1,1},
                 {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1},
-                {1,1,1,1,1,1,1}
+                {0,0,0,0,0,1,1},
         };
         System.out.println(getFirstColumnHasOne(grid));
+        System.out.println(getFirstColumnHashOne2(grid));
     }
 }
