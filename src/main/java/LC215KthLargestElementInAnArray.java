@@ -26,9 +26,9 @@ public class LC215KthLargestElementInAnArray {
      * Choose a random pivot.
      *
      * Use a partition algorithm to place the pivot into its perfect position pos in the sorted array,
-     *      move smaller elements to the left of pivot, and larger or equal ones - to the right.
+     *      move larger elements to the left of pivot, and smaller or equal ones - to the right.
      *
-     * Compare pos and N - k to choose the side of array to proceed recursively.
+     * 因为是求第k大，可以用稍微改版的quick select来做，将比pivot大的元素都移到左边，比它小的都移到右边，是反个的quick select
      */
     public static int i2(int[] nums, int k) {
         if (nums == null || nums.length == 0) {
@@ -50,7 +50,7 @@ public class LC215KthLargestElementInAnArray {
     }
 
     private static int partition(int[] nums, int left, int right) {
-        int pivot = nums[left];
+        int pivot = nums[left];   // 选取nums[left]为pivot
         int l = left + 1;
         int r = right;
 
