@@ -39,21 +39,21 @@ public class LC65ValidNumber {
         boolean numberAfterE = false;
 
         for (int i = 0; i < s.length(); i++)  {
-            if ('0' <= s.charAt(i) && s.charAt(i) <= '9') {
+            if ('0' <= s.charAt(i) && s.charAt(i) <= '9') {  // If we see [0-9] we reset the number flags.
                 numberSeen = true;
                 numberAfterE = true;
-            } else if (s.charAt(i) == '.') {
+            } else if (s.charAt(i) == '.') {   // We can only see . if we didn't see 'e' or '.'
                 if (eSeen || pointSeen) {
                     return false;
                 }
                 pointSeen = true;
-            } else if (s.charAt(i) == 'e') {
+            } else if (s.charAt(i) == 'e') {  // We can only see e if we didn't see e but we did see a number. We reset numberAfterE flag.
                 if (eSeen || !numberSeen) {
                     return false;
                 }
                 numberAfterE = false;
                 eSeen = true;
-            } else if (s.charAt(i) == '-' || s.charAt(i) == '+') {
+            } else if (s.charAt(i) == '-' || s.charAt(i) == '+') { // We can only see + and - in the beginning and after an e
                 if (i != 0 && s.charAt(i - 1) != 'e') {
                     return false;
                 }
@@ -95,5 +95,8 @@ public class LC65ValidNumber {
         System.out.println(isNumber(" --6"));
         System.out.println(isNumber("-+3"));
         System.out.println(isNumber("95a54e53"));
+        System.out.println(isNumber(".1"));
+        System.out.println(isNumber(". 1"));
+        System.out.println(isNumber("00000010000"));
     }
 }
