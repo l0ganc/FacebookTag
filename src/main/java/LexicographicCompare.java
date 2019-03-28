@@ -24,7 +24,13 @@ public class LexicographicCompare implements Comparator<String> {
             char cL = l.charAt(iL);
             char cR = r.charAt(iR);
             if (!Character.isDigit(cL) && !Character.isDigit(cR)) {  // cL跟cR都不是数字字符
-                if (cL != cR) return cL - cR;
+                if (cL != cR) {
+                    if (cL < cR) {
+                        return -1;
+                    } else {
+                        return 1;
+                    }
+                }
                 iL++;
                 iR++;
                 continue;
@@ -76,5 +82,9 @@ public class LexicographicCompare implements Comparator<String> {
         System.out.println(nc.compare("a123saf223", "a123saf990"));
         System.out.println(nc.compare("a123", "b"));
         System.out.println(nc.compare("as2223ssswed12", "as2223ssswfd12"));
+        System.out.println("++++++++++++++++++++++++++++++++++++++");
+        System.out.println(nc.compare("a10a", "a1a"));
+        System.out.println(nc.compare("aa", "az"));
+        System.out.println(nc.compare("aa", "aaz"));
     }
 }
