@@ -52,16 +52,4 @@ public class LC20ValidParentheses {
         return sb.toString();
 
     }
-
-
-
-
-    public static void main(String[] args) {
-        String s = "(){}[]";
-        System.out.println(isValid(s));
-        System.out.println(removeInvalidParentheses("()())()"));
-        System.out.println(removeInvalidParentheses("(a)())()"));
-        System.out.println(removeInvalidParentheses(")("));
-    }
-
 }
