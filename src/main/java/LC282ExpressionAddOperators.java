@@ -45,33 +45,34 @@ public class LC282ExpressionAddOperators {
 
 
     // 简化版，只有+ 跟 -
-    public  static List<String> addOperators2(String num, int target) {
-        if (num == null || num.length() == 0) {
+    // time = O(N * 2 ^(N - 1))
+    public  static List<String> addOperators2(String s, int target) {
+        if (s == null || s.length() == 0) {
             return new ArrayList<>();
         }
         List<String> res = new ArrayList<>();
-        dfs2(res, num, target, "", 0, 0);
+        dfs2(res, s, target, "", 0, 0);
         return res;
     }
 
-    public static void dfs2(List<String> res, String num, int target, String path, long calcVal, int index) {
-        if (index == num.length()) {
+    public static void dfs2(List<String> res, String s, int target, String path, long calcVal, int index) {
+        if (index == s.length()) {
             if (calcVal == target) {
                 res.add(path);
                 return;
             }
         }
 
-        for (int i = index; i < num.length(); i++) {
-            if (i != index && num.charAt(index) == '0') {
+        for (int i = index; i < s.length(); i++) {
+            if (i != index && s.charAt(index) == '0') {
                 break;
             }
-            long curNum = Long.parseLong(num.substring(index, i + 1));
+            long curNum = Long.parseLong(s.substring(index, i + 1));
             if (index == 0) {
-                dfs2(res, num, target, path + curNum, curNum, i + 1);
+                dfs2(res, s, target, path + curNum, curNum, i + 1);
             } else {
-                dfs2(res, num, target, path + "+" + curNum, calcVal + curNum, i + 1);
-                dfs2(res, num, target, path + "-" + curNum, calcVal - curNum, i + 1);
+                dfs2(res, s, target, path + "+" + curNum, calcVal + curNum, i + 1);
+                dfs2(res, s, target, path + "-" + curNum, calcVal - curNum, i + 1);
             }
         }
     }
@@ -80,6 +81,10 @@ public class LC282ExpressionAddOperators {
     public static void main(String[] args) {
         System.out.println(addOperators("123", 6));
         System.out.println(addOperators2("123", 6));
+        System.out.println(addOperators2("232", 8));
+        System.out.println(addOperators2("105", 5));
+        System.out.println(addOperators2("00", 0));
+        System.out.println(addOperators2("3456237490", 9191));
     }
 
 }
