@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC67AddBinary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC162FindPeakElement.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,11 +65,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="468">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="243">
+              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+              <folding>
+                <element signature="e#467#476#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,7 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC149MaxPointsonALine.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC277FindtheCelebrity.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC3LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC75SortColorIWithII.java" />
@@ -193,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/main/java/FindAllLocalMaximnumAndMinimumelementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindLocalMinumumInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java" />
       </list>
     </option>
   </component>
@@ -251,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553793813929" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553795083218" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -271,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC282ExpressionAddOperators">
+  <component name="RunManager" selected="Application.LC227BasicCalculatorII">
     <configuration name="FindAllLocalMaximnumAndMinimumelementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindAllLocalMaximnumAndMinimumelementInAnArray" />
       <module name="FacebookTag" />
@@ -293,6 +296,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC227BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC227BasicCalculatorII" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LC282ExpressionAddOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC282ExpressionAddOperators" />
       <module name="FacebookTag" />
@@ -300,20 +310,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LexicographicCompare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LexicographicCompare" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC227BasicCalculatorII" />
         <item itemvalue="Application.LC282ExpressionAddOperators" />
         <item itemvalue="Application.FindLocalMinumumInAnArray" />
         <item itemvalue="Application.FindAllLocalMaximnumAndMinimumelementInAnArray" />
         <item itemvalue="Application.LC139WordBreak" />
-        <item itemvalue="Application.LexicographicCompare" />
       </list>
     </recent_temporary>
   </component>
@@ -331,15 +334,16 @@
       <workItem from="1552448811178" duration="1406000" />
       <workItem from="1552965648581" duration="35799000" />
       <workItem from="1553271635928" duration="75197000" />
-      <workItem from="1553793061286" duration="506000" />
+      <workItem from="1553793061286" duration="1700000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="113563000" />
+    <option name="totallyTimeSpent" value="114757000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2918193" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -350,8 +354,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.36734694" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.36734694" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -428,7 +432,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java</url>
-          <line>81</line>
+          <line>82</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
@@ -436,13 +440,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC29DIvideTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="26" lean-forward="true" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC31NextPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -815,8 +812,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="70" selection-start-line="70" selection-end-line="70" />
+        <state relative-caret-position="468">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
+          <folding>
+            <element signature="e#467#476#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
