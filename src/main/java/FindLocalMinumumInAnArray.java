@@ -39,11 +39,13 @@ public class FindLocalMinumumInAnArray {
         int[] nums4 = {3, 2, 1};
         int[] nums5 = {1, 2, 3, 4, 5};
         int[] nums6 = {2, 1, 5, 3, 6};
+        int[] nums7 = {15, 13, 12, 18, 19, 20, 7, 6, 5, 4, 3, 2, 1};
         System.out.println(findLocalMinimumElement(nums));
         System.out.println(findLocalMinimumElement(nums2));
         System.out.println(findLocalMinimumElement(nums3));
         System.out.println(findLocalMinimumElement(nums4));
         System.out.println(findLocalMinimumElement(nums5));
         System.out.println(findLocalMinimumElement(nums6));
+        System.out.println(findLocalMinimumElement(nums7));
     }
 }
