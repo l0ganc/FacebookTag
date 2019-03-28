@@ -35,6 +35,24 @@ public class LC560SubarraySumEqualsK {
         return count;
     }
 
+
+    // Given an array nums and a target value k, find the maximum length of a subarray that sums to k. If there isn't one, return 0 instead.
+    // time = O(n), space = O(n)
+    public static int maxSubArrayLen(int[] nums, int k) {
+        Map<Integer, Integer> map = new HashMap<>(); // sum -> id
+        map.put(0, -1);
+        int maxLen = 0;
+        for (int i = 0, sum = 0; i < nums.length; i++) {
+            sum += nums[i];
+            if (map.containsKey(sum - k)) {
+                maxLen = Math.max(maxLen, i - map.get(sum - k));
+            } else {
+                map.putIfAbsent(sum, i);
+            }
+        }
+        return maxLen;
+    }
+
     // method 3: 如果都是正数，空间如何O(1)，这时候用two pointer
     public static int subarraySum3(int[] nums, int k) {
         if (k < 0) {
@@ -53,6 +71,8 @@ public class LC560SubarraySumEqualsK {
         }
         return res;
     }
+
+
 
     public static void main(String[] args) {
         int[] nums = {2, 3, 1, 2, 1, 5, 3};
