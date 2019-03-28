@@ -60,5 +60,6 @@ public class LC415AddStrings {
     public static void main(String[] args) {
         System.out.println(addStrings("123", "877"));
         System.out.println(addStrings2("124.9", "789.12"));
+        System.out.println(addStrings2("44.83", "33.92"));
     }
 }
