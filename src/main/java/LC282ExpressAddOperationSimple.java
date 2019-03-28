@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class LC621ExpressAddOperationSimple {
+public class LC282ExpressAddOperationSimple {
     public List<String> addOperators(String num, int target) {
         List<String> ans = new ArrayList<String>();
         search(0, 0, target, "", num, ans);
