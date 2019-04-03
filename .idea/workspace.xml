@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/LC621ExpressAddOperationSimple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/RemoveInvalidParthesesSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveInvalidParthesesSimple.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,11 +38,36 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC494TargetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="508">
-              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+            <state relative-caret-position="185">
+              <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="653">
+              <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#777#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[377]Combination Sum IV.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-line="31" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#828#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC378KthSmallestElementinaSortedMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC523ContinuousSubarraySum.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchingTheFirstColumnNumberHasOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC133CloneGraph.java" />
@@ -122,6 +142,7 @@
         <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[12]Integer to Roman.java" />
         <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[143]Reorder List.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java" />
       </list>
     </option>
   </component>
@@ -180,7 +201,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554309425584" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554317394138" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -200,7 +221,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC494TargetSum">
+  <component name="RunManager" selected="Application.LC377CombinationSumIV">
     <configuration name="LC227BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC227BasicCalculatorII" />
       <module name="FacebookTag" />
@@ -208,8 +229,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC282ExpressionAddOperators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC282ExpressionAddOperators" />
+    <configuration name="LC377CombinationSumIV" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC377CombinationSumIV" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +259,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC377CombinationSumIV" />
         <item itemvalue="Application.LC494TargetSum" />
         <item itemvalue="Application.RemoveInvalidParthesesSimple" />
         <item itemvalue="Application.LC415AddStrings" />
         <item itemvalue="Application.LC227BasicCalculatorII" />
-        <item itemvalue="Application.LC282ExpressionAddOperators" />
       </list>
     </recent_temporary>
   </component>
@@ -264,12 +285,12 @@
       <workItem from="1553810088857" duration="238000" />
       <workItem from="1554223610919" duration="73000" />
       <workItem from="1554223705148" duration="6912000" />
-      <workItem from="1554304484400" duration="481000" />
+      <workItem from="1554304484400" duration="1720000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127348000" />
+    <option name="totallyTimeSpent" value="128587000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -284,8 +305,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.36734694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4375" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.2510204" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4367347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -394,20 +415,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC680ValidPalindromeII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC301RemoveInvalidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="331">
@@ -748,8 +755,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC494TargetSum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+        <state relative-caret-position="185">
+          <caret line="47" column="22" lean-forward="true" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[377]Combination Sum IV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="31" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#828#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="91" column="16" selection-start-line="91" selection-start-column="16" selection-end-line="91" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#777#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
