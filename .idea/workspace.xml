@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/LC560SubarraySumEqualsK.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/LC621ExpressAddOperationSimple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/RemoveInvalidParthesesSimple.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/RemoveInvalidParthesesSimple.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -29,86 +34,7 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC415AddStrings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="499">
-              <caret line="63" selection-start-line="63" selection-end-line="63" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC98ValidateBinarySearchTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-222">
-              <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-              <folding>
-                <element signature="e#987#988#0" expanded="true" />
-                <element signature="e#1023#1024#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC297SerializeAndDeserializeBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC236LowestCommonAncestorOfaBinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-326">
-              <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-708">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC680ValidPalindromeII.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-322">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC621ExpressAddOperationSimple.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC523ContinuousSubarraySum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
@@ -116,11 +42,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC56MergeIntervals.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC494TargetSum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1777">
-              <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+            <state relative-caret-position="508">
+              <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -145,10 +71,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC3LongestSubstringWithoutRepeatingCharacters.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC75SortColorIWithII.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC56MergeIntervals.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC986IntervalListIntersections.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC378KthSmallestElementinaSortedMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC523ContinuousSubarraySum.java" />
         <option value="$PROJECT_DIR$/src/main/java/SearchingTheFirstColumnNumberHasOne.java" />
@@ -163,7 +85,6 @@
         <option value="$PROJECT_DIR$/src/main/java/LC270ClosestBinarySearchTreeValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC278FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC329LongestIncreasingPathinaMatrix.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC621ExpressAddOperationSimple.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC162FindPeakElement.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC161OneEditDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC42TrappingRainWater.java" />
@@ -183,7 +104,6 @@
         <option value="$PROJECT_DIR$/src/main/java/LC53MAximumSubArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/SumOfAllTheNumbersThatAreFormedFromRootToLeafPaths.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC20ValidParentheses.java" />
-        <option value="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC24SwapNodesinPairs.java" />
         <option value="$PROJECT_DIR$/src/main/java/LexicographicCompare.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC139WordBreak.java" />
@@ -196,6 +116,12 @@
         <option value="$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC415AddStrings.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC621ExpressAddOperationSimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC282ExpressAddOperationSimple.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java" />
+        <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[12]Integer to Roman.java" />
+        <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[143]Reorder List.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" />
       </list>
     </option>
   </component>
@@ -218,6 +144,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -248,19 +175,18 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553797639555" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554309425584" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="leetcode.id" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -274,21 +200,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC415AddStrings">
-    <configuration name="FindAllLocalMaximnumAndMinimumelementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindAllLocalMaximnumAndMinimumelementInAnArray" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FindLocalMinumumInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="FindLocalMinumumInAnArray" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC494TargetSum">
     <configuration name="LC227BasicCalculatorII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC227BasicCalculatorII" />
       <module name="FacebookTag" />
@@ -310,13 +222,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC494TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC494TargetSum" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveInvalidParthesesSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveInvalidParthesesSimple" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC494TargetSum" />
+        <item itemvalue="Application.RemoveInvalidParthesesSimple" />
         <item itemvalue="Application.LC415AddStrings" />
         <item itemvalue="Application.LC227BasicCalculatorII" />
         <item itemvalue="Application.LC282ExpressionAddOperators" />
-        <item itemvalue="Application.FindLocalMinumumInAnArray" />
-        <item itemvalue="Application.FindAllLocalMaximnumAndMinimumelementInAnArray" />
       </list>
     </recent_temporary>
   </component>
@@ -334,18 +260,22 @@
       <workItem from="1552448811178" duration="1406000" />
       <workItem from="1552965648581" duration="35799000" />
       <workItem from="1553271635928" duration="75197000" />
-      <workItem from="1553793061286" duration="3723000" />
+      <workItem from="1553793061286" duration="6587000" />
+      <workItem from="1553810088857" duration="238000" />
+      <workItem from="1554223610919" duration="73000" />
+      <workItem from="1554223705148" duration="6912000" />
+      <workItem from="1554304484400" duration="481000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116780000" />
+    <option name="totallyTimeSpent" value="127348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2045177" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15018316" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,14 +285,14 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.36734694" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4375" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32040817" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32040817" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -374,6 +304,7 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="leetcode" order="9" side_tool="true" visible="true" weight="0.17155068" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -442,67 +373,76 @@
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java</url>
+          <line>34</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/LC415AddStrings.java</url>
+          <line>45</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[314]Binary Tree Vertical Order Traversal.java</url>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindTheKthSmallestElementInMSortedArrays.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC680ValidPalindromeII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="36" lean-forward="true" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC647PalindromicSubstrings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC301RemoveInvalidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="35" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+        <state relative-caret-position="277">
+          <caret line="85" lean-forward="true" selection-start-line="85" selection-end-line="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC674LongestContinuousIncreasingSubsequence.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="47" lean-forward="true" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC300LongestIncreasingSubsequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="40" lean-forward="true" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC206ReverseLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="63" column="20" lean-forward="true" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
+        <state relative-caret-position="331">
+          <caret line="52" column="35" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="35" />
           <folding>
-            <element signature="e#259#260#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="55" column="125" selection-start-line="55" selection-start-column="125" selection-end-line="55" selection-end-column="125" />
+        <state relative-caret-position="510">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC53MAximumSubArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/DotProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="23" column="39" lean-forward="true" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="-232">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC283MoveZeroes.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindLocalMinumumInAnArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="533">
+          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/FindTheKthSmallestElementInMSortedArrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -517,91 +457,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SumOfAllTheNumbersThatAreFormedFromRootToLeafPaths.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC10RegularExpressionMatching.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+        <state relative-caret-position="-89">
+          <caret line="36" column="6" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC20ValidParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="25" selection-end-line="30" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC23MergeKSortedLists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC29DIvideTwoIntegers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC67AddBinary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="59" column="25" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC206ReverseLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="24" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding>
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#297#298#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC415AddStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="44" column="14" selection-start-line="44" selection-start-column="14" selection-end-line="44" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC75SortColorIWithII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC25ReverseNodesInKGroup.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="6" lean-forward="true" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-          <folding>
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC543DiameterofBinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC138CopyListwithRandomPointer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1267">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC125ValidPalindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="45" lean-forward="true" selection-start-line="30" selection-start-column="45" selection-end-line="30" selection-end-column="45" />
+        <state relative-caret-position="30">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC24SwapNodesinPairs.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="46" column="25" lean-forward="true" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
+        <state relative-caret-position="660">
+          <caret line="46" column="25" selection-start-line="46" selection-start-column="25" selection-end-line="46" selection-end-column="25" />
           <folding>
             <element signature="e#450#451#0" expanded="true" />
             <element signature="e#488#489#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StringCompressCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC10RegularExpressionMatching.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="6" selection-start-line="36" selection-start-column="5" selection-end-line="36" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LexicographicCompare.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-298">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC149MaxPointsonALine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC139WordBreak.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="44" column="36" lean-forward="true" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC523ContinuousSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-307">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -612,225 +549,207 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC23MergeKSortedLists.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="72" column="48" lean-forward="true" selection-start-line="72" selection-start-column="48" selection-end-line="72" selection-end-column="48" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/PrintMatrix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="409">
-          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC173BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#939#940#0" expanded="true" />
-            <element signature="e#978#979#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-536">
-          <caret line="24" column="34" lean-forward="true" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC273IntegerToEnglishWords.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-149">
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC34FindFirstandLastPositionofElementInSortedArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-401">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC133CloneGraph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC314BinaryTreeVerticalOrderTraversal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-69">
-          <caret line="43" column="15" lean-forward="true" selection-start-line="43" selection-start-column="15" selection-end-line="43" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindAllLocalMaximnumAndMinimumelementInAnArray.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC162FindPeakElement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC81SearchinRotatedSortedArrayII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC20ValidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC301RemoveInvalidParentheses.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/RemoveInvalidParthesesSimple.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindLocalMinumumInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC161OneEditDistance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC282ExpressionAddOperators.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#467#476#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC67AddBinary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="13" column="43" lean-forward="true" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC29DIvideTwoIntegers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-816">
           <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="64" column="44" selection-start-line="64" selection-start-column="44" selection-end-line="64" selection-end-column="44" />
+        <state relative-caret-position="825">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC56MergeIntervals.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC53MAximumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1777">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
+        <state relative-caret-position="345">
+          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC415AddStrings.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="499">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="825">
+          <caret line="55" column="125" selection-start-line="55" selection-start-column="125" selection-end-line="55" selection-end-column="125" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC341FlattnNestedListIterator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        <state relative-caret-position="150">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[34]Find First and Last Position of Element in Sorted Array.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[34]Find First and Last Position of Element in Sorted Array202714267.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[12]Integer to Roman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="54" column="19" lean-forward="true" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[160]Intersection of Two Linked Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#0#2212#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC98ValidateBinarySearchTree.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[124]Binary Tree Maximum Path Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-222">
-          <caret line="29" column="77" selection-start-line="29" selection-start-column="77" selection-end-line="29" selection-end-column="77" />
-          <folding>
-            <element signature="e#987#988#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="true" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC297SerializeAndDeserializeBinaryTree.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[124]Binary Tree Maximum Path Sum218044758.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[3]Longest Substring Without Repeating Characters.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[4]Median of Two Sorted Arrays.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[387]First Unique Character in a String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="150">
+          <caret line="10" column="3" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC236LowestCommonAncestorOfaBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-326">
-          <caret line="29" column="43" lean-forward="true" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC253MeetingRoomsII.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-708">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC680ValidPalindromeII.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[547]Friend Circles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#1349#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[314]Binary Tree Vertical Order Traversal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-322">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="-537" />
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[689]Maximum Sum of 3 Non-Overlapping Subarrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="1" lean-forward="true" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#906#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC621ExpressAddOperationSimple.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[689]Maximum Sum of 3 Non-Overlapping Subarrays214939230.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[680]Valid Palindrome II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#500#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[23]Merge k Sorted Lists.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[127]Word Ladder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#1256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[215]Kth Largest Element in an Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="23" column="1" lean-forward="true" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#458#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[253]Meeting Rooms II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[239]Sliding Window Maximum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[206]Reverse Linked List218103590.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[143]Reorder List218186449.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="34" lean-forward="true" selection-start-line="10" selection-end-line="39" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[143]Reorder List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="23" column="4" lean-forward="true" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#1537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[494]Target Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#873#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC523ContinuousSubarraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC494TargetSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="66" column="51" lean-forward="true" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
         </state>
       </provider>
     </entry>

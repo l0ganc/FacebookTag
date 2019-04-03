@@ -32,5 +32,6 @@ public class RemoveInvalidParthesesSimple {
         System.out.println(removeInvalidParentheses("()())()"));
         System.out.println(removeInvalidParentheses("(a)())()"));
         System.out.println(removeInvalidParentheses(")("));
+        System.out.println(removeInvalidParentheses("(())))"));
     }
 }
