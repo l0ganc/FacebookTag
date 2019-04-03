@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC322CoinChange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC40CombinationSumII.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -60,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC322CoinChange.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+            <state relative-caret-position="595">
+              <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
               <folding>
                 <element signature="e#0#572#0" expanded="true" />
               </folding>
@@ -72,14 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[322]Coin Change.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC40CombinationSumII.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="19" />
+            <state relative-caret-position="439">
+              <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
               <folding>
-                <element signature="e#0#625#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[40]Combination Sum II.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="20" lean-forward="true" selection-end-line="34" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -116,7 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/SearchingTheFirstColumnNumberHasOne.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC133CloneGraph.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC222CountCompleteTreeNodes.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC583DeleteOperationforTwoStrings.java" />
@@ -167,6 +175,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC322CoinChange.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC40CombinationSumII.java" />
       </list>
     </option>
   </component>
@@ -225,7 +234,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554326863476" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554327823782" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -245,7 +254,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC322CoinChange">
+  <component name="RunManager" selected="Application.LC40CombinationSumII">
     <configuration name="LC322CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC322CoinChange" />
       <module name="FacebookTag" />
@@ -260,8 +269,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC415AddStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC415AddStrings" />
+    <configuration name="LC40CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC40CombinationSumII" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -283,11 +292,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC40CombinationSumII" />
         <item itemvalue="Application.LC322CoinChange" />
         <item itemvalue="Application.LC377CombinationSumIV" />
         <item itemvalue="Application.LC494TargetSum" />
         <item itemvalue="Application.RemoveInvalidParthesesSimple" />
-        <item itemvalue="Application.LC415AddStrings" />
       </list>
     </recent_temporary>
   </component>
@@ -309,12 +318,12 @@
       <workItem from="1553810088857" duration="238000" />
       <workItem from="1554223610919" duration="73000" />
       <workItem from="1554223705148" duration="6912000" />
-      <workItem from="1554304484400" duration="2441000" />
+      <workItem from="1554304484400" duration="3201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129308000" />
+    <option name="totallyTimeSpent" value="130068000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -444,20 +453,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/DotProduct.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-232">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/FindLocalMinumumInAnArray.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="41" column="68" selection-start-line="41" selection-start-column="68" selection-end-line="41" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FindTheKthSmallestElementInMSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-134">
@@ -793,22 +788,39 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC322CoinChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[322]Coin Change.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="19" />
+        <state relative-caret-position="330">
+          <caret line="22" column="8" lean-forward="true" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
             <element signature="e#0#625#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC322CoinChange.java">
+    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[40]Combination Sum II.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="8" selection-start-line="39" selection-start-column="8" selection-end-line="39" selection-end-column="8" />
+        <state relative-caret-position="105">
+          <caret line="7" column="20" lean-forward="true" selection-end-line="34" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC40CombinationSumII.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="58" column="26" selection-start-line="58" selection-start-column="26" selection-end-line="58" selection-end-column="26" />
           <folding>
-            <element signature="e#0#572#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
