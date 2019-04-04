@@ -91,6 +91,8 @@ public class LC543DiameterofBinaryTree {
         }
 
         /**
+         * The diameter of a tree (sometimes called the width) is the number of nodes on the longest path between two end nodes.
+         *
          * The path can either start from one of the node and goes up to one of the LCAs of these nodes
          * and again come down to the deepest node of some other subtree
          *      or
