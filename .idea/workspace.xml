@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC235LowestCommonAncestorofaBinarySearchTree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,18 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC340LongestSubstringWithAtMostKDistinctCharacters.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="13" lean-forward="true" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC10RegularExpressionMatching.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +74,33 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC543DiameterofBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1001">
-              <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+            <state relative-caret-position="124">
+              <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC236LowestCommonAncestorOfaBinaryTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-701">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC235LowestCommonAncestorofaBinarySearchTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="367">
+              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+              <folding>
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,18 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[44]Wildcard Matching.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="63" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#1249#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,8 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/StringCompressCompare.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC270ClosestBinarySearchTreeValue.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC278FirstBadVersion.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC329LongestIncreasingPathinaMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC162FindPeakElement.java" />
@@ -195,6 +192,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LC340LongestSubstringWithAtMostKDistinctCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC44WildcardMatching.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC336PalindromePairs.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC543DiameterofBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC235LowestCommonAncestorofaBinarySearchTree.java" />
       </list>
     </option>
   </component>
@@ -255,7 +254,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554414588434" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554445314864" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -339,18 +338,18 @@
       <workItem from="1553810088857" duration="238000" />
       <workItem from="1554223610919" duration="73000" />
       <workItem from="1554223705148" duration="6912000" />
-      <workItem from="1554304484400" duration="13007000" />
+      <workItem from="1554304484400" duration="14403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139874000" />
+    <option name="totallyTimeSpent" value="141270000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18681319" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26068377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -486,16 +485,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC341FlattnNestedListIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[34]Find First and Last Position of Element in Sorted Array.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[34]Find First and Last Position of Element in Sorted Array202714267.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -859,8 +848,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC543DiameterofBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1001">
-          <caret line="15" column="7" lean-forward="true" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+        <state relative-caret-position="124">
+          <caret line="94" column="10" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC236LowestCommonAncestorOfaBinaryTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-701">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC235LowestCommonAncestorofaBinarySearchTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+          <folding>
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
