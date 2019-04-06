@@ -68,7 +68,7 @@ public class LC238ProductofArrayExceptSelf {
     }
 
     public static void main(String[] args) {
-        int[] nums = {1,0,3,4};
+        int[] nums = {1,0,3,4,0};
         System.out.println(Arrays.toString(productExceptSelf(nums)));
         System.out.println(Arrays.toString(productExceptSelf2(nums)));
     }
