@@ -49,7 +49,7 @@ public class LC282ExpressionAddOperators {
      * @param preNum: previous number, in order to multiply current number if we want to put * between preNum and curNum
      * @param pos: current index in the input num array
      * */
-    public void dfs(List<String> result, String num, int target, String expr, long calcVal, long preNum, int pos) {
+    public static void dfs(List<String> result, String num, int target, String expr, long calcVal, long preNum, int pos) {
         if (pos == num.length()) {
             if (calcVal == target) {
                 result.add(expr);
