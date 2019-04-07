@@ -44,7 +44,7 @@ public class LC88MergeSortedArray {
         }
     }
 
-    // 时间复杂度：O(knlogk), k时候数组的数目，n是每个数组的长度，空间复杂度如果不考虑结果数组的所用空间就是O(k)
+    // 时间复杂度：O(knlogk), k是数组的数目，n是每个数组的长度，空间复杂度如果不考虑结果数组的所用空间就是O(k)
     public static  int[] mergeKSortedArray(int[][] arr) {
         // 最小堆，根据每个array里的index所在元素排序，heap的size是k，k个array
         PriorityQueue<MyArray> pq = new PriorityQueue<>(Comparator.comparingInt(a -> a.array[a.index]));
