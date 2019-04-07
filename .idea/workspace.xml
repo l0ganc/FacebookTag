@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC785IsGraphBipartite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC636ExclusiveTimeOfFunctions.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC31NextPermutation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC304RangeSumQuery2DImmutable.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -91,11 +82,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC785IsGraphBipartite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="559">
-              <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+            <state relative-caret-position="326">
+              <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC636ExclusiveTimeOfFunctions.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="573">
+              <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -150,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindTheKthSmallestElementInMSortedArrays.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC674LongestContinuousIncreasingSubsequence.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC300LongestIncreasingSubsequence.java" />
@@ -201,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC973KClosestPointstoOrigin.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC286WallsAndGates.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC785IsGraphBipartite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC636ExclusiveTimeOfFunctions.java" />
       </list>
     </option>
   </component>
@@ -259,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554616751357" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554618948431" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -279,14 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC286WallsAndGates">
-    <configuration name="LC121BestTimetoBuyandSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC121BestTimetoBuyandSellStock" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC636ExclusiveTimeOfFunctions">
     <configuration name="LC238ProductofArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC238ProductofArrayExceptSelf" />
       <module name="FacebookTag" />
@@ -308,6 +304,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC636ExclusiveTimeOfFunctions" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC636ExclusiveTimeOfFunctions" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LC91DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC91DecodeWays" />
       <module name="FacebookTag" />
@@ -317,11 +320,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC636ExclusiveTimeOfFunctions" />
         <item itemvalue="Application.LC286WallsAndGates" />
         <item itemvalue="Application.LC91DecodeWays" />
         <item itemvalue="Application.LC282ExpressionAddOperators" />
         <item itemvalue="Application.LC238ProductofArrayExceptSelf" />
-        <item itemvalue="Application.LC121BestTimetoBuyandSellStock" />
       </list>
     </recent_temporary>
   </component>
@@ -345,12 +348,12 @@
       <workItem from="1554223705148" duration="6912000" />
       <workItem from="1554304484400" duration="15362000" />
       <workItem from="1554482780743" duration="10335000" />
-      <workItem from="1554575236407" duration="7230000" />
+      <workItem from="1554575236407" duration="8058000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="159794000" />
+    <option name="totallyTimeSpent" value="160622000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -504,16 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC567PermutationInString.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[44]Wildcard Matching.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/LC44WildcardMatching.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -883,8 +876,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC785IsGraphBipartite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
+        <state relative-caret-position="326">
+          <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC636ExclusiveTimeOfFunctions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="573">
+          <caret line="43" column="17" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
