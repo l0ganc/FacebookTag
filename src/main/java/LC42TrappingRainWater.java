@@ -104,9 +104,12 @@ public class LC42TrappingRainWater {
 
     public static void main(String[] args) {
         int[] nums = {0,1,0,2,1,0,1,3,2,1,2,1};
+        int[] nums2 = {3, 1, 1, 2, 1, 2};
         System.out.println(trap(nums));
         System.out.println(trap2(nums));
         System.out.println(trap3(nums));
         System.out.println(trap4(nums));
+
+        System.out.println(trap4(nums2));
     }
 }
