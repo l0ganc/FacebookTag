@@ -37,4 +37,28 @@ public class LC25ReverseNodesInKGroup {
         }
         return head;
     }
+
+
+    // new
+    public ListNode reverseKGroup2(ListNode head, int k) {
+        ListNode cur = head;
+        int count = 0;
+
+        while (cur != null && count != k) {
+            cur = cur.next;
+            count++;
+        }
+
+        if (count == k) {
+            cur = reverseKGroup2(cur, k);
+            while (count-- > 0) {
+                ListNode next = head.next;
+                head.next = cur;
+                cur = head;
+                head = next;
+            }
+            head = cur;
+        }
+        return head;
+    }
 }
