@@ -23,16 +23,18 @@ public class LC408ValidWordAbbreviation {
                 continue;
             }
 
-            if (abbr.charAt(j) <= '0' || abbr.charAt(j) > '9') {
+            // 如果程序运行到这里，表明遇到了不相等的字符，如果abbr中的字符不是数字，直接返回false
+            // 是数字字符的话第一位不能是'0'，所以下面的范围是不能等于'0'的
+            if (!(abbr.charAt(j) > '0' && abbr.charAt(j) <= '9')) {
                 return false;
             }
 
             int start = j;
-            while (j < abbr.length() && abbr.charAt(j) >= '0' && abbr.charAt(j) <= '9') {
+            while (j < abbr.length() && Character.isDigit(abbr.charAt(j))) {
                 j++;
             }
-            int num = Integer.valueOf(abbr.substring(start, j));
-            i += num;
+            int num = Integer.valueOf(abbr.substring(start, j));   // 计算出数字
+            i += num;   // 跳过word中对应的字符
         }
 
         return i == word.length() && j == abbr.length();
@@ -43,8 +45,5 @@ public class LC408ValidWordAbbreviation {
         String abbr = "i12iz4n";
         System.out.println(validWordAbbreviation(s, abbr));
         System.out.println(validWordAbbreviation("apple", "a2e"));
-        String str = "abc";
-        System.out.println(str.charAt(0) - '0');
-        System.out.println(str.charAt(0) - '9');
     }
 }
