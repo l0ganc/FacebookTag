@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC114FlattenBinaryTreetoLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC622DesignCircularQueue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC477TotalHammingDistance.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC398RandomPickIndex.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC606ConstructStringfromBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="539">
-              <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+            <state relative-caret-position="20">
+              <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
               <folding>
                 <element signature="e#179#180#0" expanded="true" />
                 <element signature="e#217#218#0" expanded="true" />
@@ -122,11 +113,34 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC114FlattenBinaryTreetoLinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="47" selection-start-column="47" selection-end-column="47" />
+            <state relative-caret-position="568">
+              <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+              <folding>
+                <element signature="e#597#598#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC622DesignCircularQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="533">
+              <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+              <folding>
+                <element signature="e#1883#1884#0" expanded="true" />
+                <element signature="e#1903#1904#0" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+                <element signature="e#1991#1992#0" expanded="true" />
+                <element signature="e#2061#2062#0" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
+                <element signature="e#2168#2169#0" expanded="true" />
+                <element signature="e#2200#2201#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -151,8 +165,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC322CoinChange.java" />
-        <option value="$PROJECT_DIR$/src/main/java/LC40CombinationSumII.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC209MinimumSizeSubarraySum.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC325MaximumSizeSubarraySumEqualsK.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC76MinimumWindowSubstring.java" />
@@ -202,6 +214,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LC143ReorderList.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC536ConstructBinaryTreefromString.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC606ConstructStringfromBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC114FlattenBinaryTreetoLinkedList.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC622DesignCircularQueue.java" />
       </list>
     </option>
   </component>
@@ -260,7 +274,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554762142627" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554764993479" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -280,7 +294,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC43MultiplyStrings">
+  <component name="RunManager" selected="Application.LC622DesignCircularQueue">
     <configuration name="LC398RandomPickIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC398RandomPickIndex" />
       <module name="FacebookTag" />
@@ -302,13 +316,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC463IslandPerimeter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC463IslandPerimeter" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="LC477TotalHammingDistance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC477TotalHammingDistance" />
       <module name="FacebookTag" />
@@ -316,13 +323,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LC622DesignCircularQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC622DesignCircularQueue" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC622DesignCircularQueue" />
         <item itemvalue="Application.LC43MultiplyStrings" />
         <item itemvalue="Application.LC398RandomPickIndex" />
         <item itemvalue="Application.LC477TotalHammingDistance" />
         <item itemvalue="Application.LC408ValidWordAbbreviation" />
-        <item itemvalue="Application.LC463IslandPerimeter" />
       </list>
     </recent_temporary>
   </component>
@@ -346,18 +360,18 @@
       <workItem from="1554223705148" duration="6912000" />
       <workItem from="1554304484400" duration="15362000" />
       <workItem from="1554482780743" duration="10335000" />
-      <workItem from="1554575236407" duration="31517000" />
+      <workItem from="1554575236407" duration="33030000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="184081000" />
+    <option name="totallyTimeSpent" value="185594000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -366,7 +380,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.2510204" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.2510204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4367347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -374,7 +388,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32040817" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32040817" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -523,13 +537,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC173BinarySearchTreeIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC31NextPermutation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -921,8 +928,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC606ConstructStringfromBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="539">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="56" selection-end-line="45" selection-end-column="56" />
+        <state relative-caret-position="20">
+          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="8" selection-end-column="6" />
           <folding>
             <element signature="e#179#180#0" expanded="true" />
             <element signature="e#217#218#0" expanded="true" />
@@ -932,8 +939,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC114FlattenBinaryTreetoLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="47" selection-end-column="47" />
+        <state relative-caret-position="568">
+          <caret line="58" column="9" selection-start-line="58" selection-start-column="9" selection-end-line="58" selection-end-column="9" />
+          <folding>
+            <element signature="e#597#598#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC622DesignCircularQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
+          <folding>
+            <element signature="e#1883#1884#0" expanded="true" />
+            <element signature="e#1903#1904#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#1991#1992#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2168#2169#0" expanded="true" />
+            <element signature="e#2200#2201#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
