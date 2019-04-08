@@ -27,6 +27,7 @@ public class LC138CopyListwithRandomPointer {
 
         while (cur != null) {
             Node copy = new Node(cur.val, null, null);
+            map.put(cur, copy);
             cur = cur.next;
         }
 
