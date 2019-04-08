@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC251Flatten2DVector.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -28,15 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC88MergeSortedArray.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-71">
-              <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC50Pow_x_n.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,11 +60,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC161OneEditDistance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="499">
+              <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC251Flatten2DVector.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -152,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC23MergeKSortedLists.java" />
-        <option value="$PROJECT_DIR$/src/main/java/PrintMatrix.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindAllLocalMaximnumAndMinimumelementInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/FindLocalMinumumInAnArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC227BasicCalculatorII.java" />
@@ -203,6 +202,8 @@
         <option value="$PROJECT_DIR$/src/main/java/LC247StrobogrammaticNumberII.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC986IntervalListIntersections.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC199BinaryTreeRightSideView.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC161OneEditDistance.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC251Flatten2DVector.java" />
       </list>
     </option>
   </component>
@@ -261,7 +262,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554684811939" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554689779505" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -347,12 +348,12 @@
       <workItem from="1554223705148" duration="6912000" />
       <workItem from="1554304484400" duration="15362000" />
       <workItem from="1554482780743" duration="10335000" />
-      <workItem from="1554575236407" duration="19273000" />
+      <workItem from="1554575236407" duration="19955000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="171837000" />
+    <option name="totallyTimeSpent" value="172519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
@@ -506,13 +507,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC560SubarraySumEqualsK.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-785">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC680ValidPalindromeII.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-148">
@@ -910,8 +904,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC161OneEditDistance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        <state relative-caret-position="499">
+          <caret line="56" column="5" lean-forward="true" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC251Flatten2DVector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
         </state>
       </provider>
     </entry>
