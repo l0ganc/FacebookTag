@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC398RandomPickIndex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC43MultiplyStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,24 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC341TopKFrequentElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC349LC350IntersectionOfTwoArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="101" column="19" selection-start-line="101" selection-start-column="19" selection-end-line="101" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC277FindtheCelebrity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +92,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC398RandomPickIndex.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="469">
               <caret line="52" column="297" selection-start-line="52" selection-start-column="297" selection-end-line="52" selection-end-column="297" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-490">
+              <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC43MultiplyStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="581">
+              <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -139,7 +139,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[12]Integer to Roman.java" />
         <option value="/var/folders/lv/w97bgbhs5mq1t_kw9p8jrzh40000gn/T/leetcode-plugin/en/[143]Reorder List.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC494TargetSum.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC377CombinationSumIV.java" />
@@ -190,6 +189,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC408ValidWordAbbreviation.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC477TotalHammingDistance.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC398RandomPickIndex.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC43MultiplyStrings.java" />
       </list>
     </option>
   </component>
@@ -248,7 +248,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554746375023" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554747253498" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -268,14 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC398RandomPickIndex">
-    <configuration name="LC341TopKFrequentElements" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC341TopKFrequentElements" />
-      <module name="FacebookTag" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.LC43MultiplyStrings">
     <configuration name="LC398RandomPickIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC398RandomPickIndex" />
       <module name="FacebookTag" />
@@ -285,6 +278,13 @@
     </configuration>
     <configuration name="LC408ValidWordAbbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LC408ValidWordAbbreviation" />
+      <module name="FacebookTag" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LC43MultiplyStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC43MultiplyStrings" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -306,11 +306,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC43MultiplyStrings" />
         <item itemvalue="Application.LC398RandomPickIndex" />
         <item itemvalue="Application.LC477TotalHammingDistance" />
         <item itemvalue="Application.LC408ValidWordAbbreviation" />
         <item itemvalue="Application.LC463IslandPerimeter" />
-        <item itemvalue="Application.LC341TopKFrequentElements" />
       </list>
     </recent_temporary>
   </component>
@@ -334,18 +334,18 @@
       <workItem from="1554223705148" duration="6912000" />
       <workItem from="1554304484400" duration="15362000" />
       <workItem from="1554482780743" duration="10335000" />
-      <workItem from="1554575236407" duration="27843000" />
+      <workItem from="1554575236407" duration="28497000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="180407000" />
+    <option name="totallyTimeSpent" value="181061000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20879121" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -354,7 +354,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4993895" visible="true" weight="0.2510204" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4993895" weight="0.2510204" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4367347" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -362,7 +362,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32970297" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32040817" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32040817" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50061053" side_tool="true" weight="0.32959184" />
       <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.4993895" weight="0.32959184" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -511,20 +511,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC157ReadNCharactersGivenRead4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="51" selection-start-line="51" selection-end-line="63" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC158ReadNCharactersGivenRead4IICallMultipleTimes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" selection-start-line="27" selection-end-line="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC621TaskScheduler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -913,6 +899,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="52" column="297" selection-start-line="52" selection-start-column="297" selection-end-line="52" selection-end-column="297" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC65ValidNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-490">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC43MultiplyStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="581">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
         </state>
       </provider>
     </entry>
