@@ -1,6 +1,4 @@
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 /**
  * 349是不带重复的样子，用set可以做，350是有重复元素(set换成list). follow up主要是两个数组是排序好的怎么做，
@@ -76,6 +74,34 @@ public class LC349LC350IntersectionOfTwoArrays {
         }
         return res;
     }
+
+    // LC350 Intersection of Two Arrays II, 350是有重复元素(set换成list).
+    public static int[] intersect(int[] nums1, int[] nums2) {
+        Arrays.sort(nums1);
+        Arrays.sort(nums2);
+
+        int i = 0, j = 0;
+        List<Integer> res = new ArrayList<>();
+        while (i < nums1.length && j < nums2.length) {
+            if (nums1[i] < nums2[j]) {
+                i++;
+            } else if (nums1[i] > nums2[j]) {
+                j++;
+            } else {
+                res.add(nums1[i]);
+                i++;
+                j++;
+            }
+        }
+
+        int[] arr = new int[res.size()];
+        int k = 0;
+        for (Integer num : res) {
+            arr[k++] = num;
+        }
+        return arr;
+    }
+
 
     private static boolean binarysearch(int[] nums, int target) {
         int left = 0;
