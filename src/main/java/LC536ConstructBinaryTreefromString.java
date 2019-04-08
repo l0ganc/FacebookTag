@@ -40,7 +40,7 @@ public class LC536ConstructBinaryTreefromString {
             return null;
         }
 
-        // 处理数字的情况,'-'表示负号，s中只可能有'0'~'9'、'-'、'('、')'
+        // 处理数字的情况,'-'表示负号，s中只可能有'0'~'9'、'-'、'('、')',  i.e. "1(-1)(2)".
         StringBuilder sb = new StringBuilder();
         while (i < s.length && s[i] != '(' && s[i] != ')') {
             sb.append(s[i++]);
