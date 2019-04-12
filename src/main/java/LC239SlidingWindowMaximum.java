@@ -43,32 +43,38 @@ public class LC239SlidingWindowMaximum {
             return new int[0];
         }
 
-        int[] res = new int[a.length - k + 1];
-        Deque<Integer> deque = new ArrayDeque<>();  // store index
-        int index = 0;
+        int[] res = new int[a.length - k + 1];   // 没k的原数组中的元素里有一个是结果数组的元素
+        Deque<Integer> deque = new ArrayDeque<>();  // deque中存的是下标，从deque的头部开始到尾部是一个降序(按照下标所在元素)的序列，
+        int index = 0;  // 记录结果数组的下标
 
         for (int i = 0; i < a.length; i++) {
-            // remove numbers out of range k
-            while (!deque.isEmpty() && deque.peek() < i - k + 1) {
-                deque.poll();
+            while (!deque.isEmpty() && deque.peekFirst() < i - k + 1) {
+                deque.pollFirst();   // remove element out of range k，从头部开始剔除
             }
 
-            // remove smaller numbers in k range as they are useless
             while (!deque.isEmpty() && a[deque.peekLast()] < a[i]) {
+                // 从尾部开始，剔除小于当前元素的下标
                 deque.pollLast();
             }
 
-            deque.offer(i);
+            deque.offer(i);   // 压元素进deque，从尾部进入
             if (i >= k - 1) {
-                res[index++] = a[deque.peek()];
+                // 更新res数组
+                res[index++] = a[deque.peekFirst()];
             }
         }
         return res;
     }
+
+
 
     public static void main(String[] args) {
         int[] nums = new int[]{1,3,-1,-3,5,3,6,7};
         LC239SlidingWindowMaximum obj = new LC239SlidingWindowMaximum();
         System.out.println(Arrays.toString(obj.maxSlidingWindow(nums, 3)));
     }
+
+    /**
+     * 双端队列Deque. https://www.jianshu.com/p/d78a7c982edb
+     */
 }
