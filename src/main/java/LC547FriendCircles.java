@@ -50,6 +50,48 @@ public class LC547FriendCircles {
         }
     }
 
+
+    // union-find 版本
+    public int findCircleNum2(int[][] M) {
+        if (M == null || M.length == 0 || M[0].length == 0) {
+            return 0;
+        }
+
+        int[] roots = new int[M.length];
+        for (int i = 0; i < roots.length; i++) {
+            roots[i] = i;
+        }
+
+        int count = 0;
+        for (int i = 0; i < M.length; i++) {
+            for (int j = 0; j < M[0].length; j++) {
+                if (i != j && M[i][j] == 1) {
+                    int p = find(roots, i);
+                    int q = find(roots, j);
+                    if (p != q) {
+                        roots[p] = q;
+                    }
+                }
+            }
+        }
+
+        for (int i = 0; i < M.length; i++) {
+            if (roots[i] == i) {
+                count++;
+            }
+        }
+
+        return count;
+    }
+
+    public int find(int[] roots, int id) {
+        while (id != roots[id]) {
+            roots[id] = roots[roots[id]];
+            id = roots[id];
+        }
+        return id;
+    }
+
     public static void main(String[] args) {
         int[][] M = new int[][] {
                 {1,1,0},
@@ -64,6 +106,8 @@ public class LC547FriendCircles {
         LC547FriendCircles obj = new LC547FriendCircles();
         System.out.println(obj.findCircleNum(M));
         System.out.println(obj.findCircleNum(M2));
+        System.out.println(obj.findCircleNum2(M));
+        System.out.println(obj.findCircleNum2(M2));
     }
 
 }
