@@ -36,38 +36,36 @@ public class LC222CountCompleteTreeNodes {
      * 如果相差不是1，说明最后一层没有满，但是倒数第二层是满的
      * 求树高是O(logn)， 计算节点又是一个logn，总的时间是 O((logn)^2)
      */
-    public static int countNodes(TreeNode root)  {
-        int h = height(root);
-        if (h < 0) return 0;
-        if (height(root.right) + 1 == h) {
-            return (1 << h) + countNodes(root.right);
+    public int countNodes(TreeNode root)  {
+        int leftDepth = leftDepth(root);
+        int rightDepth = rightDepth(root);
+
+        if (leftDepth == rightDepth) {
+            // 高度相等，是满二叉树, 用公式2^h - 1计算节点数
+            return (1 << leftDepth) - 1;
+        } else {
+            // 非满二叉树
+            return 1 + countNodes(root.left) + countNodes(root.right);
         }
-        return (1 << (h - 1)) + countNodes(root.left);
-    }
-    // 计算满二叉树的树高
-    private static int height(TreeNode root) {
-        if (root == null) {
-            return -1;
-        }
-        return 1 + height(root.left);
     }
 
-
-    // iterative version
-    public int countNodes2(TreeNode root) {
-        int nodes = 0;
-        int h = height(root);
-
+    public int leftDepth(TreeNode root) {
+        int depth = 0;
         while (root != null) {
-            if (height(root.right) + 1 == h) {
-                nodes += (1 << h);
-                root = root.right;
-            } else {
-                nodes += (1 << (h - 1));
-                root = root.left;
-            }
-            h--;
+            root = root.left;
+            depth++;
         }
-        return nodes;
+        return depth;
     }
+
+    public int rightDepth(TreeNode root) {
+        int depth = 0;
+        while (root != null) {
+            root = root.right;
+            depth++;
+        }
+        return depth;
+    }
+
+
 }
