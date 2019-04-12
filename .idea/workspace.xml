@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1fbb8a63-be43-4b89-86f3-0a3273c2b3ce" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/LC654MaximumBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/LC116PopulatingNextRightPointersinEachNode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -29,20 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/LC872LeafSimilarTrees.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#620#621#0" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC897IncreasingOrderSearchTree.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,14 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/LC654MaximumBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="581">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding>
-                <element signature="e#1389#1390#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="203">
+              <caret line="37" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/LC116PopulatingNextRightPointersinEachNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="457">
+              <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -155,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/LC143ReorderList.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC536ConstructBinaryTreefromString.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC606ConstructStringfromBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC114FlattenBinaryTreetoLinkedList.java" />
@@ -206,6 +197,7 @@
         <option value="$PROJECT_DIR$/src/main/java/LC987VerticalOrderTraversalofaBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC865SmallestSubtreewithalltheDeepestNodes.java" />
         <option value="$PROJECT_DIR$/src/main/java/LC654MaximumBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LC116PopulatingNextRightPointersinEachNode.java" />
       </list>
     </option>
   </component>
@@ -264,7 +256,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555041217917" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555041919062" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -351,12 +343,12 @@
       <workItem from="1554304484400" duration="15362000" />
       <workItem from="1554482780743" duration="10335000" />
       <workItem from="1554575236407" duration="49315000" />
-      <workItem from="1554929008121" duration="18101000" />
+      <workItem from="1554929008121" duration="18599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="219980000" />
+    <option name="totallyTimeSpent" value="220478000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -540,13 +532,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/LC209MinimumSizeSubarraySum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="83">
-          <caret line="28" column="52" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC53MAximumSubArray.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -955,11 +940,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/LC654MaximumBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding>
-            <element signature="e#1389#1390#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="203">
+          <caret line="37" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="56" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LC116PopulatingNextRightPointersinEachNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="457">
+          <caret line="40" column="17" lean-forward="true" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
         </state>
       </provider>
     </entry>
