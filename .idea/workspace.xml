@@ -253,7 +253,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555438909130" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555438929153" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -273,7 +273,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LC15_3Sum">
+  <component name="RunManager" selected="Application.LC125ValidPalindrome">
     <configuration name="FindTheKthSmallestElementInMSortedArrays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="FindTheKthSmallestElementInMSortedArrays" />
       <module name="FacebookTag" />
@@ -281,15 +281,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC15_3Sum" />
+    <configuration name="LC125ValidPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC125ValidPalindrome" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LC398RandomPickIndex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LC398RandomPickIndex" />
+    <configuration name="LC15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LC15_3Sum" />
       <module name="FacebookTag" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -311,11 +311,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LC125ValidPalindrome" />
         <item itemvalue="Application.LC15_3Sum" />
         <item itemvalue="Application.RemoveInvalidParthesesSimple" />
         <item itemvalue="Application.LC658FindKCloestElements" />
         <item itemvalue="Application.FindTheKthSmallestElementInMSortedArrays" />
-        <item itemvalue="Application.LC398RandomPickIndex" />
       </list>
     </recent_temporary>
   </component>

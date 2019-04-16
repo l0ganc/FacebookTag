@@ -25,7 +25,7 @@ public class LC125ValidPalindrome {
             }
 
             while (i < j && !Character.isLetterOrDigit(s.charAt(j))) {
-                j++;
+                j--;
             }
 
             if (s.charAt(i) != s.charAt(j)) {
@@ -35,5 +35,9 @@ public class LC125ValidPalindrome {
             j--;
         }
         return true;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(isPalindrome("A man, a plan, a canal: Panama"));
     }
 }
