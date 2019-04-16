@@ -26,6 +26,7 @@ public class LC253MeetingRoomsII {
     }
 
     // LC253: Meeting rooms II  常规的排序+minHeap法
+    // time = O(NlogN), space = O(N)
     public static int minMeetingRooms2(Interval[] intervals) {
         if (intervals == null || intervals.length == 0) {
             return 0;
