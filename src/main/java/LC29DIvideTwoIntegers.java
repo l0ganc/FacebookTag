@@ -90,7 +90,7 @@ public class LC29DIvideTwoIntegers {
     }
 
     public static void main(String[] args) {
-        System.out.println(divide(32, 8));
+        System.out.println(divide(32, 3));
         System.out.println("*************************************");
         System.out.println(divide2(32, 3));
     }
