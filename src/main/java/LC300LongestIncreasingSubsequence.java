@@ -13,8 +13,8 @@ public class LC300LongestIncreasingSubsequence {
      */
 
     /**
-     * We make use of a dpdp array to store the required data.
-     * dp[i]dp[i] represents the length of the longest increasing subsequence possible
+     * We make use of a dp array to store the required data.
+     * dp[i] represents the length of the longest increasing subsequence possible
      *      considering the array elements upto the ith element
      *
      */
