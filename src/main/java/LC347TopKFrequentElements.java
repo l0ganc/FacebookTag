@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class LC341TopKFrequentElements {
+public class LC347TopKFrequentElements {
     /**
      * Given a non-empty array of integers, return the k most frequent elements.
      *
