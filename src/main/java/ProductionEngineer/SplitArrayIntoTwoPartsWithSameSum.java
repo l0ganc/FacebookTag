@@ -34,14 +34,31 @@ public class SplitArrayIntoTwoPartsWithSameSum {
         return -1;
     }
 
+    // 暴力解
+    public static int findSplitPoint2(int[] arr, int n) {
+        int leftSum = 0;
+
+        for (int i = 0; i < n; i++) {
+            leftSum += arr[i];
+            int rightSum = 0;
+            for (int j = i + 1; j < n; j++) {
+                rightSum += arr[j];
+            }
+            if (leftSum == rightSum) {
+                return i + 1;
+            }
+        }
+        return -1;
+    }
+
     public static void printTwoParts(int arr[], int n) {
-        int point = findSplitPoint(arr, n);
+        int point = findSplitPoint2(arr, n);
         if (point == -1 || point == arr.length - 1) {
             return;
         }
 
         for (int i = 0; i < n; i++) {
-            if (i == point + 1) {
+            if (i == point) {
                 System.out.println();
             }
             System.out.print(arr[i] + " ");
