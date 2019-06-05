@@ -48,8 +48,10 @@ public class SplitArrayIntoTwoPartsWithSameSum {
         }
     }
 
+
     public static void main(String[] args) {
         int arr[] = {1 , 2 , 3 , 4 , 5 , 5 };
+        int arr1[] = {4, 1, 2, 3};
         int n = arr.length;
 
         printTwoParts(arr, n);
