@@ -51,6 +51,26 @@ public class SplitArrayIntoTwoPartsWithSameSum {
         return -1;
     }
 
+    // one pass with sorted array and
+    public static int canSplit(int[] nums) {
+        int leftSum = 0, rightSum = 0, i, j;
+        if(nums.length == 1)
+            return -1;
+        for(i=0, j=nums.length-1; i<=j ;){
+            if(leftSum <= rightSum){
+                leftSum+=nums[i];
+                i++;
+            }else{
+                rightSum+=nums[j];
+                j--;
+            }
+            if (leftSum == rightSum) {
+                return i;
+            }
+        }
+        return -1;
+    }
+
     public static void printTwoParts(int arr[], int n) {
         int point = findSplitPoint2(arr, n);
         if (point == -1 || point == arr.length - 1) {
@@ -71,6 +91,13 @@ public class SplitArrayIntoTwoPartsWithSameSum {
         int arr1[] = {4, 1, 2, 3};
         int n = arr.length;
 
-        printTwoParts(arr, n);
+        //printTwoParts(arr, n);
+        System.out.println();
+
+        System.out.println(canSplit(arr));
+        System.out.println(canSplit(new int[]{1, 2}));
+        System.out.println(canSplit(new int[]{1, 4, 3}));
+        System.out.println(canSplit(new int[]{4, 1, 2, 3}));
+        System.out.println(canSplit(new int[]{4, 3, 2, 1}));
     }
 }
