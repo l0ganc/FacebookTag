@@ -26,6 +26,11 @@ public class LC20ValidParentheses {
         return stack.isEmpty();
     }
 
+    public static void main(String[] args) {
+        String s = ")))))";
+        System.out.println(isValid(s));
+    }
+
 
     // follow up: LC301: Remove Invalid Parentheses 简化版，只用return 一个valid就行
     public static String removeInvalidParentheses(String input) {
