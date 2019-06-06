@@ -7,6 +7,9 @@ public class ConvertBinarySearchTreeToSortedDoublyLinkedList {
      *
      *      step1: inorder traversal by recursion to connect the original BST
      *      step2: connect the head and tail to make it circular
+     *
+     *    time complexity = O(n)
+     *    space complexity = O(n)
      */
 
     static class Node {
